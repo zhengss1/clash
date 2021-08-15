@@ -9,15 +9,15 @@
 ;增强中国IP段：不支持
 ;增强国外GFW：不支持
 
-ruleset=🎯 全球直连,https://raw.githubusercontent.com/w312112325/clash/main/lanjie.list
-ruleset=🎯 全球直连,https://raw.githubusercontent.com/w312112325/clash/main/lanjie.list
-ruleset=🛑 全球拦截,https://raw.githubusercontent.com/w312112325/clash/main/lanjie.list
-ruleset=🍃 应用净化,https://raw.githubusercontent.com/w312112325/clash/main/lanjie.list
-ruleset=📢 谷歌FCM,https://raw.githubusercontent.com/w312112325/clash/main/lanjie.list
-ruleset=🎯 全球直连,https://raw.githubusercontent.com/w312112325/clash/main/lanjie.list
-ruleset=🚀 节点选择,https://raw.githubusercontent.com/w312112325/clash/main/lanjie.list
-ruleset=🎯 全球直连,https://raw.githubusercontent.com/w312112325/clash/main/lanjie.list
-ruleset=🎯 全球直连,https://raw.githubusercontent.com/w312112325/clash/main/lanjie.list
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/zhengss1/clash/main/lanjie.list
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/zhengss1/clash/main/lanjie.list
+ruleset=🛑 全球拦截,https://raw.githubusercontent.com/zhengss1/clash/main/lanjie.list
+ruleset=🍃 应用净化,https://raw.githubusercontent.com/zhengss1/clash/main/lanjie.list
+ruleset=📢 谷歌FCM,https://raw.githubusercontent.com/zhengss1/clash/main/lanjie.list
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/zhengss1/clash/main/lanjie.list
+ruleset=🚀 节点选择,https://raw.githubusercontent.com/zhengss1/clash/main/lanjie.list
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/zhengss1/clash/main/lanjie.list
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/zhengss1/clash/main/lanjie.list
 ruleset=🎯 全球直连,[]GEOIP,CN
 ruleset=🐟 漏网之鱼,[]FINAL
 
