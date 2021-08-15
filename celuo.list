@@ -9,21 +9,14 @@
 ;增强中国IP段：不支持
 ;增强国外GFW：不支持
 
-ruleset=🎯 DIRECT,https://raw.githubusercontent.com/zhengss1/clash/main/lanjie.list
-ruleset=🎯 DIRECT,https://raw.githubusercontent.com/zhengss1/clash/main/lanjie.list
 ruleset=🛑 **********写入网络规则**********,https://raw.githubusercontent.com/zhengss1/clash/main/lanjie.list
 ruleset=🍃 *********无法用于其他用途*********,https://raw.githubusercontent.com/zhengss1/clash/main/lanjie.list
 ruleset=📢 ********谷歌地球独立激活器********,https://raw.githubusercontent.com/zhengss1/clash/main/lanjie.list
-ruleset=🎯 DIRECT,https://raw.githubusercontent.com/zhengss1/clash/main/lanjie.list
 ruleset=🚀 节点选择,https://raw.githubusercontent.com/zhengss1/clash/main/lanjie.list
-ruleset=🎯 DIRECT,https://raw.githubusercontent.com/zhengss1/clash/main/lanjie.list
-ruleset=🎯 DIRECT,https://raw.githubusercontent.com/zhengss1/clash/main/lanjie.list
-ruleset=🎯 DIRECT,[]GEOIP,CN
 ruleset=🐟 ****关键提示：请切勿乱点会导致失效****,[]FINAL
 
 custom_proxy_group=🚀 节点选择`select`[]♻️ 自动选择`[]DIRECT`.*
 custom_proxy_group=♻️ 自动选择`url-test`.*`http://www.gstatic.com/generate_204`300,,50
-custom_proxy_group=🎯 DIRECT`select`[]DIRECT`[]🚀 节点选择`[]♻️ 自动选择
 custom_proxy_group=📢 ********谷歌地球独立激活器********`select`[]🚀 节点选择`[]🎯 全球直连`[]♻️ 自动选择`.*
 custom_proxy_group=🛑 **********写入网络规则**********`select`[]REJECT`[]DIRECT
 custom_proxy_group=🍃 *********无法用于其他用途*********`select`[]REJECT`[]DIRECT
