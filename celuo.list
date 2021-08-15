@@ -9,14 +9,14 @@
 ;增强中国IP段：不支持
 ;增强国外GFW：不支持
 
-ruleset= 谷歌地球专用,https://raw.githubusercontent.com/zhengss1/clash/main/lanjie.list
-ruleset= 谷歌地球专用,https://raw.githubusercontent.com/zhengss1/clash/main/lanjie.list
+ruleset= 谷歌地球独立激活器,https://raw.githubusercontent.com/zhengss1/clash/main/lanjie.list
+ruleset= 谷歌地球独立激活器,https://raw.githubusercontent.com/zhengss1/clash/main/lanjie.list
 ruleset= 请切勿乱点-会导致失效,https://raw.githubusercontent.com/zhengss1/clash/main/lanjie.list
-ruleset= 全球直连,https://raw.githubusercontent.com/zhengss1/clash/main/lanjie.list
+ruleset= 谷歌地球独立激活器,https://raw.githubusercontent.com/zhengss1/clash/main/lanjie.list
 ruleset=🚀 节点选择,https://raw.githubusercontent.com/zhengss1/clash/main/lanjie.list
-ruleset= 谷歌地球专用,https://raw.githubusercontent.com/zhengss1/clash/main/lanjie.list
-ruleset= 谷歌地球专用,https://raw.githubusercontent.com/zhengss1/clash/main/lanjie.list
-ruleset= 谷歌地球专用,[]GEOIP,CN
+ruleset= 谷歌地球独立激活器,https://raw.githubusercontent.com/zhengss1/clash/main/lanjie.list
+ruleset= 谷歌地球独立激活器,https://raw.githubusercontent.com/zhengss1/clash/main/lanjie.list
+ruleset= 谷歌地球独立激活器,[]GEOIP,CN
 
 
 custom_proxy_group=🚀 节点选择`select`[]♻️ 自动选择`[]DIRECT`.*
