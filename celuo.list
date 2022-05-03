@@ -9,26 +9,23 @@
 ;增强中国IP段：不支持
 ;增强国外GFW：不支持
 
-ruleset=🎯 全球直连,https://raw.githubusercontent.com/zhengss1/clash/main/lanjie.list
-ruleset=🎯 全球直连,https://raw.githubusercontent.com/zhengss1/clash/main/lanjie.list
-ruleset=🛑 **********写入网络规则**********,https://raw.githubusercontent.com/zhengss1/clash/main/lanjie.list
-ruleset=🍃 *********无法用于其他用途*********,https://raw.githubusercontent.com/zhengss1/clash/main/lanjie.list
-ruleset=📢 ********谷歌地球独立激活器********,https://raw.githubusercontent.com/zhengss1/clash/main/lanjie.list
-ruleset=🎯 全球直连,https://raw.githubusercontent.com/zhengss1/clash/main/lanjie.list
-ruleset=🚀 节点选择,https://raw.githubusercontent.com/zhengss1/clash/main/lanjie.list
-ruleset=🎯 全球直连,https://raw.githubusercontent.com/zhengss1/clash/main/lanjie.list
-ruleset=🎯 全球直连,https://raw.githubusercontent.com/zhengss1/clash/main/lanjie.list
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
+ruleset=后果自负,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list
+ruleset=谷歌地球,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
+;ruleset=🎯 全球直连,[]GEOIP,LAN
 ruleset=🎯 全球直连,[]GEOIP,CN
-ruleset=🐟 ****关键提示：请切勿乱点会导致失效****,[]FINAL
+ruleset=故障转移,[]FINAL
 
-custom_proxy_group=🚀 节点选择`select`[]♻️ 自动选择`[]DIRECT`.*
-custom_proxy_group=♻️ 自动选择`url-test`.*`http://www.gstatic.com/generate_204`300,,50
-custom_proxy_group=🎯 全球直连`select`[]DIRECT`[]🚀 节点选择`[]♻️ 自动选择
-custom_proxy_group=📢 ********谷歌地球独立激活器********`select`[]🚀 节点选择`[]🎯 全球直连`[]♻️ 自动选择`.*
-custom_proxy_group=🛑 **********写入网络规则**********`select`[]REJECT`[]DIRECT
-custom_proxy_group=🍃 *********无法用于其他用途*********`select`[]REJECT`[]DIRECT
-custom_proxy_group=🐟 ****关键提示：请切勿乱点会导致失效****`select`[]🚀 节点选择`[]🎯 全球直连`[]♻️ 自动选择`.*
-
+custom_proxy_group=谷歌地球`select`[]禁止调试`[]DIRECT`.*
+custom_proxy_group=禁止调试`url-test`.*`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🎯 全球直连`select`[]DIRECT`[]谷歌地球`[]禁止调试
+custom_proxy_group=后果自负`select`[]REJECT`[]DIRECT
+custom_proxy_group=故障转移`select`[]谷歌地球`[]🎯 全球直连`[]禁止调试`.*
 
 enable_rule_generator=true
 overwrite_original_rules=true
